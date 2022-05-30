@@ -801,7 +801,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #EF6F34 !important;
+  color: #f3976c !important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -826,7 +826,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/note_it_image_de_presentation.jpg");
 }
 
 /*Adding style for text-center*/
