@@ -773,7 +773,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #EF6F34;
 }
 
 /* Change to white*/
@@ -783,7 +783,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #EF6F34;
   color: #ffffff !important;
 }
 
@@ -826,7 +826,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/note_it_image_de_presentation.jpg");
 }
 
 /*Adding style for text-center*/

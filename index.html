@@ -20,7 +20,7 @@
       content="Agence La Panthère - grande agence de webdesign à Lyon"
     />
     <meta property="og:type" content="webdesign" />
-    <meta property="og:url" content="A ajouter à la fin" />
+    <meta property="og:url" content="https://maiphuongthao.github.io/MaiPhuongThao_4_07042022/index.html" />
     <meta property="og:image" content="favicon.jpg" />
     <meta
       property="og:description"
@@ -39,16 +39,16 @@
 
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap_min.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome_min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/et-line_min.css" />
 
-    <script src="./js/jquery-2.1.0.js" defer></script>
-    <script src="./js/bootstrap.js" defer></script>
-    <script src="./js/blocs.js" defer></script>
-    <script src="./js/jquery.touchSwipe.js" defer></script>
-    <script src="./js/gmaps.js" defer></script>
+    <script src="./js/jquery-2.1.0_min.js" defer></script>
+    <script src="./js/bootstrap_min.js" defer></script>
+    <script src="./js/blocs_min.js" defer></script>
+    <script src="./js/jquery.touchSwipe_min.js" defer></script>
+    <script src="./js/gmaps_min.js" defer></script>
     <!--Ajouter le titre du page-->
     <title>Agence La Panthère - grande agence de webdesign à Lyon</title>
 
@@ -69,8 +69,8 @@
               <!--Séparer le style du code HTML-->
               <!--Supprimer les mots clés invisibles-->
               <a class="navbar-brand" href="index.html"
-                ><img src="img/agence-la-panthere-monochrome.svg" alt="Logo
-                d'agence La Panthère" height="48"" /></a
+                ><img src="img/logo_agence.jpg" alt="Logo
+                d'agence La Panthère" height="48" /></a
               >
               <button
                 id="nav-toggle"
@@ -259,12 +259,15 @@
             <figure class="col-sm-6">
               <a
                 href="#"
-                data-lightbox="img/1.jpg"
+                data-lightbox="img/journaux.jpg"
                 data-gallery-id="gallery-1"
                 data-caption="Refonte d'un site web pour un journal local"
                 data-frame="snapshot-lb"
                 ><img
-                  src="img/1.jpg"
+				srcset="img/journaux_small.jpg 270w,
+             img/journaux.jpg 320w"
+     sizes="(max-width: 300px) and (min-width: 770px) 320w, 270w"
+                  src="img/journaux.jpg"
                   loading="lazy"
                   alt="Plusieurs livres avec des couleurs différents sur une ligne"
                   class="img-responsive portfolio-thumb"
@@ -283,13 +286,16 @@
             <figure class="col-sm-6">
               <a
                 href="#"
-                data-lightbox="img/2.jpg"
+                data-lightbox="img/photographe.jpg"
                 loading="lazy"
                 data-gallery-id="gallery-1"
                 data-caption="Création d'un site web pour photographes"
                 data-frame="snapshot-lb"
                 ><img
-                  src="img/2.jpg"
+				srcset="img/photographe_small.jpg 270w,
+             img/photographe.jpg 320w"
+     sizes="(max-width: 300px) and (min-width: 770px) 320w, 270w"
+                  src="img/photographe.jpg"
                   loading="lazy"
                   class="img-responsive portfolio-thumb"
                   alt="Une photographe est entrain de prendre une photo"
@@ -304,19 +310,20 @@
                 </p>
               </figcaption>
             </figure>
-            >
           </article>
-          >
           <article class="row tight-width-whitespace portfolio-row">
             <figure class="col-sm-6">
               <a
                 href="#"
-                data-lightbox="img/3.bmp"
+                data-lightbox="img/tech_accessoires_voyageur.jpg"
                 data-gallery-id="gallery-1"
                 data-caption="Création d'un site internet pour un voyageur"
                 data-frame="snapshot-lb"
                 ><img
-                  src="img/3.bmp"
+				srcset="img/tech_accessoires_voyageur_small.jpg 270w,
+             img/tech_accessoires_voyageur.jpg 320w"
+     sizes="(max-width: 300px) and (min-width: 770px) 320w, 270w"
+                  src="img/tech_accessoires_voyageur.jpg"
                   class="img-responsive portfolio-thumb"
                   alt="Les acessoires de photo, video et orginateur d'un voyageur"
               /></a>
@@ -330,17 +337,19 @@
                 </p>
               </figcaption>
             </figure>
-            >
             <figure class="col-sm-6">
               <a
                 href="#"
-                data-lightbox="img/4.bmp"
+                data-lightbox="img/bureau_collaboration_mariage.jpg"
                 loading="lazy"
                 data-gallery-id="gallery-1"
                 data-caption="Conception d'un site pour une agence de mariage"
                 data-frame="snapshot-lb"
                 ><img
-                  src="img/4.bmp"
+				srcset="img/bureau_collaboration_mariage_small.jpg 270w,
+             img/bureau_collaboration_mariage.jpg 320w"
+     sizes="(max-width: 300px) and (min-width: 770px) 320w, 270w"
+                  src="img/bureau_collaboration_mariage.jpg"
                   loading="lazy"
                   class="img-responsive portfolio-thumb"
                   alt="Vue sur le bureau une ordinateur et des papiers pour la collaboration avec agence de mariage "
@@ -357,7 +366,6 @@
               </figcaption>
             </figure>
           </article>
-          >
         </div>
       </section>
       <!-- bloc-4-portfolio END -->
@@ -366,8 +374,7 @@
       <!--Ajouter la balise section-->
       <section
         class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper"
-        id="bloc-5-cta"
-      >
+        id="bloc-5-cta">
         <div class="container bloc-lg">
           <div class="row">
             <!--Réorganise les titres: modifier h2 à p-->
@@ -377,7 +384,7 @@
 			</h2>
 
 			<!--Add tabindex-->
-            <div class="col-sm-12 text-center">
+            <div class="col-sm-12 text-center" >
               <a
                 href="contact.html"
                 class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero"
