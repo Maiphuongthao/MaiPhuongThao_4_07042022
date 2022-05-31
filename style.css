@@ -666,6 +666,11 @@ address{
     color: #000000;
 }
 
+/*Add style to blockquote*/
+blockquote{
+    color: #000000;
+}
+
 .container {
   max-width: 1000px;
 }
