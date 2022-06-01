@@ -90,7 +90,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
   background-size: 280px 280px;
 }
 
@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-  font-size: 30px !important;
+  font-size: 48px !important;
 }
 
 .icon-lg {
@@ -836,11 +836,11 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("img/agence-la-panthere.jpg");
+  background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-  background-image: url("img/note_it_image_de_presentation.jpg");
+  background-image: url("img/note_it_image_de_presentation.webp");
 }
 
 /*Adding style for text-center*/
