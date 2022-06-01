@@ -505,8 +505,9 @@ button {
   border-radius: 0 0 29px 29px;
 }
 
+/*Change border color to black*/
 .form-control {
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: black;
   box-shadow: none;
 }
 
@@ -652,7 +653,22 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: black !important;
+}
+
+/*Add size for label & address*/
+label, address{
+    font-size: 1.1em;
+}
+
+/*Add style for address*/
+address{
+    color: #000000;
+}
+
+/*Add style to blockquote*/
+blockquote{
+    color: #000000;
 }
 
 .container {
