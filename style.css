@@ -792,9 +792,8 @@ h4 {
   background-color: #9E3D10;
 }
 
-/* Change to white*/
 .tc-white {
-  color: white !important;
+  color: #9E3D10 !important;
   font-weight: 700;
 }
 
