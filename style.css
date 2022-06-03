@@ -90,7 +90,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
   background-size: 280px 280px;
 }
 
@@ -132,7 +131,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -741,7 +740,7 @@ h3 {
 }
 
 h1 {
-  color: white!important;
+  color: #333333!important;
 }
 
 h4 {
@@ -771,7 +770,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: #F3976C;
   padding: 40px 40px 40px 40px;
 }
 
@@ -781,7 +780,7 @@ h4 {
 }
 
 .bgc-white {
-  background-color: #ffffff;
+  background-color: #ffff;
 }
 
 .bgc-dark-slate-blue {
@@ -789,18 +788,18 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #9E3D10;
+  background-color: #F3976C;
 }
 
-/* Change to white*/
+
 .tc-white {
-  color: white !important;
+  color:black !important;
   font-weight: 700;
 }
 
 .btn-atomic-tangerine {
-  background: #9E3D10;
-  color: #ffffff !important;
+  background: black;
+  color: #F3976C !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -817,7 +816,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #9E3D10 !important;
+  color: #F3976C !important;
 }
 
 .ltc-atomic-tangerine:hover {
