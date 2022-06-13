@@ -655,18 +655,19 @@ a {
 }
 
 /*Add size for label & address*/
-label, address{
-    font-size: 1.1em;
+label,
+address {
+  font-size: 1.1em;
 }
 
 /*Add style for address*/
-address{
-    color: #000000;
+address {
+  color: #000000;
 }
 
 /*Add style to blockquote*/
-blockquote{
-    color: #000000;
+blockquote {
+  color: #000000;
 }
 
 .container {
@@ -740,7 +741,7 @@ h3 {
 }
 
 h1 {
-  color: #333333!important;
+  color: #333333 !important;
 }
 
 h4 {
@@ -770,7 +771,7 @@ h4 {
 }
 
 .black-background {
-  background-color: #F3976C;
+  background-color: #f3976c;
   padding: 40px 40px 40px 40px;
 }
 
@@ -788,18 +789,17 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #F3976C;
+  background-color: #f3976c;
 }
 
-
 .tc-white {
-  color:black !important;
+  color: black !important;
   font-weight: 700;
 }
 
 .btn-atomic-tangerine {
   background: black;
-  color: #F3976C !important;
+  color: #f3976c !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -816,7 +816,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #F3976C !important;
+  color: #f3976c !important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -870,13 +870,13 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -894,10 +894,10 @@ p {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
+  /*.bloc {
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
-  }
+  }*/
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -906,8 +906,9 @@ p {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
+    /*
     padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
+    padding-right: constant(safe-area-inset-right);*/
   }
 }
 
